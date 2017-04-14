@@ -14,8 +14,8 @@ class GoogleSafeBrowsing {
     public function lookup( $url ) {
 
         // Get API key
-        $api_key = config('google_safe_browsing.api_key');
-        $client_id = config('google_safe_browsing.client');
+        $api_key = config( 'google_safe_browsing.api_key' );
+        $client_id = config( 'google_safe_browsing.client' );
 
         $this->insecure_results = [
             'MALWARE' => false,
