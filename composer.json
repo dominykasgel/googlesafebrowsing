@@ -1,0 +1,20 @@
+{
+    "name": "dominykasgel/google-safe-browsing",
+    "description": "Google Safe Browsing Lookup API v4 for Laravel",
+    "authors": [
+        {
+            "name": "Dominykas Gelucevičius",
+            "email": ""
+        }
+    ],
+    "license": "GPL-3.0",
+    "require": {
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dominykasgel\\GoogleSafeBrowsing\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
