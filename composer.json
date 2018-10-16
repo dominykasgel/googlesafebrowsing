@@ -16,5 +16,15 @@
             "dominykasgel\\GoogleSafeBrowsing\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "dominykasgel\\GoogleSafeBrowsing\\GoogleSafeBrowsingServiceProvider"
+            ],
+            "aliases": {
+                "GoogleSafeBrowsing": "dominykasgel\\GoogleSafeBrowsing\\Facades\\GoogleSafeBrowsingFacade"
+            }
+        }
+    },
     "minimum-stability": "stable"
 }
