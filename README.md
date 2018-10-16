@@ -1,7 +1,7 @@
 GoogleSafeBrowsing
 =====
 
-Goole Safe Browsing v4 package for Laravel.
+Google Safe Browsing v4 package for Laravel.
 
 Installation
 ====
