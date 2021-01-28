@@ -9,11 +9,21 @@
     ],
     "license": "GPL-3.0",
     "require": {
-        "laravel/framework": "~5.0"
+        "laravel/framework": "~6.0"
     },
     "autoload": {
         "psr-4": {
             "dominykasgel\\GoogleSafeBrowsing\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "dominykasgel\\GoogleSafeBrowsing\\GoogleSafeBrowsingServiceProvider"
+            ],
+            "aliases": {
+                "GoogleSafeBrowsing": "dominykasgel\\GoogleSafeBrowsing\\Facades\\GoogleSafeBrowsingFacade"
+            }
         }
     },
     "minimum-stability": "stable"
